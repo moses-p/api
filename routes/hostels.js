@@ -19,7 +19,7 @@ router.post("/", verifyAdmin, createHostel);
 //UPDATE
 router.put("/:id", verifyAdmin, updateHostel);
 //DELETE
-router.delete("/:id", verifyAdmin, deleteHostel);
+router.delete("/", deleteHostel);
 //GET
 
 router.get("/find/:id", getHostel);
